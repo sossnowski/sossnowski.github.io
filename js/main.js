@@ -1,5 +1,6 @@
 let pixelScrolled = -10
 jQuery(document).ready(function($) {
+    hideLoader()
     logoLive()
     scrollHandler()
     handleNavbarClick()
@@ -182,4 +183,8 @@ scrollToStart = () => {
         if (transform != "none") {
             $('.wrapper').css('transform', 'translate3d( 0,0,0)')
         }
+}
+
+hideLoader = () => {
+    $('.loader').addClass('disapear')
 }

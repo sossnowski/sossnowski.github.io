@@ -391,6 +391,48 @@ fieldset {
   font-weight: 700;
 }
 
+@keyframes moveLoader {
+  from {
+    top: 0;
+    left: 0;
+  }
+
+  to {
+    top: 100%;
+    left: 100%;
+  }
+}
+
+.loader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: #fff;
+  z-index: 200;
+}
+
+.loader-icon {
+  width: 60%;
+  height: 50%;
+  margin: auto;
+  margin-top: 20%;
+  position: relative;
+}
+
+.loader-icon i {
+  color: #f89448;
+  font-size: 7rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+  animation-duration: 5s;
+  animation-name: moveLoader;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
 @media (max-width: 1540px) {
   .logo-wrapper img {
     width: 65%;
