@@ -1,0 +1,407 @@
+html {
+  color: #222;
+  font-size: 1em;
+  line-height: 1.4;
+}
+
+::-moz-selection {
+  background: #b3d4fc;
+  text-shadow: none;
+}
+
+::selection {
+  background: #b3d4fc;
+  text-shadow: none;
+}
+
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+  vertical-align: middle;
+}
+
+fieldset {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+  body {
+    overflow: hidden;
+  }
+
+  .show {
+    opacity: 1;
+    transition-duration: 2s;
+    transition-delay: 1s;
+  }
+
+  .disapear {
+    opacity: 0;
+    transition-duration: 1s;
+    pointer-events: none;
+  }
+
+  .heightTo10 {
+    height: 10%!important;
+    transition-duration: 2s;
+  }
+
+  .heightTo100 {
+    height: 100%!important;
+    transition-duration: 2s;
+  }
+
+  .no-move {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: calc(100vh - 59px);
+    background-color: #222222;
+    color: #f89448;
+  }
+
+  .main-gap {
+    min-width: 100vw;
+    pointer-events: none;
+    height: calc(100vh - 59px);
+    background-color: rgb(0,0,0,0);
+  }
+
+  .half-gap {
+    min-width: 50vw;
+    pointer-events: none;
+    height: calc(100vh - 59px);
+    background-color: rgb(0,0,0,0);
+  }
+
+  .navbar {
+    z-index: 100;
+    position: fixed;
+  }
+
+.wrapper {
+  
+  height: 100vh;
+  width: auto;
+  flex-flow: row nowrap;
+  display: flex;
+  /* transform: translateZ(-100px); */
+  pointer-events: none;
+}
+
+.wrapper>* {
+  position: relative;
+}
+
+.container-fluid-height {
+  height: calc(100vh - 59px);
+}
+
+.animate {
+  transform: translate3d(-1000px, 0,0);
+  transition-duration: 5s;
+}
+
+.main-page-wrapper {
+  min-width: 100vw;
+  height: 100vh;
+  display: block;
+}
+
+.navbar-color {
+  background-color: #222222;
+  color: #f89448;
+}
+
+.navbar-color a {
+  color: #f89448;
+  cursor: pointer;
+}
+
+.navbar-color a:hover {
+  color: #f57a28f8
+}
+
+.navbar-color .brand-text {
+  font-size: 1.8rem;
+}
+
+.logo-wrapper {
+  height: 85%;
+}
+
+.logo-wrapper img {
+  height: 100%;
+}
+
+.logo-wrapper .logo-img-wrapper-1 {
+  margin-top: 50px;
+}
+
+.logo-wrapper .logo-img-wrapper-2 {
+  margin-top: 60px;
+}
+
+.logo-wrapper .logo-img-wrapper-3 {
+  margin-top: 58px;
+}
+
+.logo-wrapper .logo-img-wrapper-4 {
+  margin-top: 55px;
+}
+
+.logo-wrapper .logo-img-wrapper-5 {
+  margin-top: 30px;
+}
+
+.logo-wrapper .logo-img-wrapper-6 {
+  margin-top: 0px;
+}
+
+.logo-wrapper .logo-img-wrapper-main {
+  margin-top: 0px;
+}
+
+.logo-text {
+  font-family: 'Libre Franklin', sans-serif;
+  font-weight: 700;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -10vh;
+  text-align: center;
+}
+
+.about-page {
+  min-width: 100vw;
+  height: 100vh;
+  background-color: #fff;
+  pointer-events: all;
+  overflow: hidden;
+}
+
+.about-page .video-wrapper {
+  height: 100%;
+  width: 100%;
+}
+
+.about-page video {
+  object-fit: cover;
+  width: 100vw;
+  height: calc(100% + 110px);
+  margin-top: -55px;
+  
+}
+
+.about-page .page-header {
+  position: absolute;
+  top: 20%;
+  text-align: center;
+  width: 100%;
+  font-size: 3rem;
+  font-weight: 700;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+@keyframes moveArrow {
+  from {
+    bottom: 10%;
+  }
+
+  to {
+    bottom: 15%;
+  }
+}
+
+@keyframes moveArrowUp {
+  from {
+    margin-bottom: 15%;
+  }
+
+  to {
+    margin-bottom: 10%;
+  }
+}
+
+.about-page .arrow {
+  position: absolute;
+  bottom: 10%;
+  width: 100%;
+  text-align: center;
+  transition-delay: 1s;
+  animation-duration: 1s;
+  animation-name: moveArrow;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.about-page .arrow i {
+  color: #fff;
+  font-size: 4rem;
+  cursor: pointer;
+}
+
+.about-page .second-part {
+  height: 100%;
+  background-color: #fff;
+}
+
+.second-part .header {
+  margin-top: 10%;
+  text-align: center;
+  margin-bottom: 10%;
+}
+
+.second-part .content {
+  width: 70%;
+  margin: auto;
+  text-align: justify;
+  margin-bottom: 10%;
+  animation-duration: 1s;
+  animation-name: moveArrowUp;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.second-part .arrow-up {
+  color: #000000;
+  width: 100%;
+  text-align: center;
+}
+
+.arrow-up i {
+  color: #000000;
+  font-size: 4rem;
+  cursor: pointer;
+}
+
+.mission-page {
+  min-width: 100vw;
+  height: 100%;
+  background-color: #fff;
+}
+
+.mission-page .image-wrapper {
+  height: 50%;
+  width: 100%;
+}
+
+.mission-page .image-wrapper img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.mission-page .header {
+  margin-top: 5%;
+  text-align: center;
+  margin-bottom: 5%;
+}
+
+.mission-page .content {
+  width: 70%;
+  margin: auto;
+  text-align: justify;
+  margin-bottom: 10%;
+  animation-duration: 1s;
+  animation-name: moveArrowUp;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.join-page {
+  min-width: 100vw;
+  height: 100%;
+  background-color: #fff;
+  pointer-events: all;
+}
+
+.join-page .header {
+  margin-top: 15%;
+  text-align: center;
+  margin-bottom: 5%;
+}
+
+.join-page .header h5{
+  text-align: center;
+  color: #222222;
+  letter-spacing: 3px;
+  margin-top: 5%
+}
+
+.join-page .email-form {
+  width: 50%;
+  margin: auto;
+  text-align: center;
+}
+
+.join-page .email-form input {
+  width: 100%;
+  border-radius: 3px;
+  padding: 5px 2px;
+  cursor: pointer;
+  border: 1px solid #f89448;
+}
+
+.join-page .email-form button {
+  width: 33%;
+  border-radius: 3px;
+  padding: 5px 2px;
+  cursor: pointer;
+  margin-top: 3%;
+  background-color: #fff;
+  border: 1px solid #f89448;
+}
+
+.join-page .email-form input:focus {
+  outline: none;
+  border-bottom: 3px solid #f89448;
+}
+
+.join-page .email-form button:focus {
+  outline: none;
+}
+
+.join-page .email-form button:hover {
+  border: 3px solid #f89448;
+}
+
+.join-page .brand {
+  margin-top: 10%;
+  text-align: center;
+  letter-spacing: 2px;
+  color: #f89448;
+  font-family: 'Libre Franklin', sans-serif;
+  font-weight: 700;
+}
+
+@media (max-width: 1540px) {
+  .logo-wrapper img {
+    width: 65%;
+  }
+
+  .second-part .header {
+    margin-bottom: 5%;
+  }
+
+  .second-part .content {
+    margin-bottom: 5%;
+  }
+}
+

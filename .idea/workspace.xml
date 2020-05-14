@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="SCOPE_TYPE" value="3" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e3720294-1165-4112-b4a7-9904220755fb" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="ProjectId" id="1bqluiwzqhqRO5SlNDeqdUjXWIR" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e3720294-1165-4112-b4a7-9904220755fb" name="Default Changelist" comment="" />
+      <created>1589367728382</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1589367728382</updated>
+      <workItem from="1589367729571" duration="3517000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="360" y="198" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1589367818598">
+      <screen x="0" y="23" width="1792" height="1033" />
+    </state>
+    <state x="360" y="198" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1792.1033@0.23.1792.1033" timestamp="1589367818598" />
+    <state x="653" y="417" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1589368372732">
+      <screen x="0" y="23" width="1792" height="1033" />
+    </state>
+    <state x="653" y="417" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.23.1792.1033@0.23.1792.1033" timestamp="1589368372732" />
+    <state x="397" y="175" key="SettingsEditor" timestamp="1589367739953">
+      <screen x="0" y="23" width="1792" height="1033" />
+    </state>
+    <state x="397" y="175" key="SettingsEditor/0.23.1792.1033@0.23.1792.1033" timestamp="1589367739953" />
+    <state x="561" y="250" key="run.anything.popup" timestamp="1589367827505">
+      <screen x="0" y="23" width="1792" height="1033" />
+    </state>
+    <state x="561" y="250" key="run.anything.popup/0.23.1792.1033@0.23.1792.1033" timestamp="1589367827505" />
+  </component>
+</project>
