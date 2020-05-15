@@ -188,5 +188,5 @@ scrollToStart = () => {
 hideLoader = () => {
     setTimeout(() => {
         $('.loader').addClass('disapear')
-    }, 1000)
+    }, 3000)
 }

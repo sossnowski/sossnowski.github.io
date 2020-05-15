@@ -393,13 +393,82 @@ fieldset {
 
 @keyframes moveLoader {
   from {
-    top: 0;
-    left: 0;
-  }
-
-  to {
-    top: 100%;
     left: 100%;
+  }
+  to {
+    left: 45%;
+  }
+}
+
+@keyframes moveLoader1 {
+  from {
+    left: 100%;
+  }
+  to {
+    left: 40%;
+  }
+}
+
+@keyframes moveLoader2 {
+  from {
+    left: 100%;
+  }
+  to {
+    left: 42%;
+  }
+}
+
+@keyframes moveLoader3 {
+  from {
+    left: 100%;
+  }
+  to {
+    left: 44%;
+  }
+}
+
+@keyframes moveLoader4 {
+  from {
+    left: 100%;
+  }
+  to {
+    left: 46%;
+  }
+}
+
+@keyframes moveLoader5 {
+  from {
+    left: 100%;
+  }
+  to {
+    left: 48%;
+  }
+}
+
+@keyframes moveLoader6 {
+  from {
+    left: 100%;
+  }
+  to {
+    left: 50%;
+  }
+}
+
+@keyframes moveLoader7 {
+  from {
+    left: 100%;
+  }
+  to {
+    left: 52%;
+  }
+}
+
+@keyframes moveLoader8 {
+  from {
+    left: 100%;
+  }
+  to {
+    left: 54%;
   }
 }
 
@@ -413,11 +482,100 @@ fieldset {
   z-index: 200;
 }
 
-.loader-icon {
+.loader .loader-title {
   width: 60%;
-  height: 50%;
-  margin: auto;
+  margin-left: auto;
+  margin-right: auto;
   margin-top: 20%;
+  text-align: center;
+  color: #f89448;
+  font-size: 2.5rem;
+  font-weight: bold;
+  height: 4rem;
+}
+
+.loader .loader-title .a1 {
+  position: absolute;
+  left: 40%;
+  animation-duration: 1s;
+  animation-name: moveLoader1;
+  animation-iteration-count: 1;
+  animation-direction: alternate;
+}
+
+.loader .loader-title .a2 {
+  position: absolute;
+  left: 42%;
+  animation-duration: 1s;
+  animation-name: moveLoader2;
+  animation-iteration-count: 1;
+  animation-direction: alternate;
+  animation-delay: 0.2s;
+}
+
+.loader .loader-title .a3 {
+  position: absolute;
+  left: 44%;
+  animation-duration: 1s;
+  animation-name: moveLoader3;
+  animation-iteration-count: 1;
+  animation-direction: alternate;
+  animation-delay: 0.4s;
+}
+
+.loader .loader-title .a4 {
+  position: absolute;
+  left: 46%;
+  animation-duration: 1s;
+  animation-name: moveLoader4;
+  animation-iteration-count: 1;
+  animation-direction: alternate;
+  animation-delay: 0.6s;
+}
+
+.loader .loader-title .a5 {
+  position: absolute;
+  left: 48%;
+  animation-duration: 1s;
+  animation-name: moveLoader5;
+  animation-iteration-count: 1;
+  animation-direction: alternate;
+  animation-delay: 0.8s;
+}
+
+.loader .loader-title .a6 {
+  position: absolute;
+  left: 50%;
+  animation-duration: 1s;
+  animation-name: moveLoader6;
+  animation-iteration-count: 1;
+  animation-direction: alternate;
+  animation-delay: 1s;
+}
+
+.loader .loader-title .a7 {
+  position: absolute;
+  left: 52%;
+  animation-duration: 1s;
+  animation-name: moveLoader7;
+  animation-iteration-count: 1;
+  animation-direction: alternate;
+  animation-delay: 1.2s;
+}
+
+.loader .loader-title .a8 {
+  position: absolute;
+  left: 54%;
+  animation-duration: 1s;
+  animation-name: moveLoader8;
+  animation-iteration-count: 1;
+  animation-direction: alternate;
+  animation-delay: 1.4s;
+}
+
+.loader-icon {
+  margin: auto;
+  margin-top: 5%;
   position: relative;
 }
 
@@ -425,11 +583,11 @@ fieldset {
   color: #f89448;
   font-size: 7rem;
   position: absolute;
-  top: 0;
-  left: 0;
-  animation-duration: 5s;
+  top: 20%;
+  left: 45%;
+  animation-duration: 3s;
   animation-name: moveLoader;
-  animation-iteration-count: infinite;
+  animation-iteration-count: 1;
   animation-direction: alternate;
 }
 
