@@ -13358,7 +13358,7 @@ pre .code {
   }
 
   .header-content {
-    padding-left: calc(100% / 5) !important;
+    padding-left: calc(100% / 10) !important;
   }
 }
 
